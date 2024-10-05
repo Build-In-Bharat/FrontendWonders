@@ -12,7 +12,7 @@ assignees: ""
 
 ## Type of Submission
 
-- [ ] CodePen Link
+- [ ] CodePen Link / Github Link / (or any other static site link with repo URL)
 - [ ] New Folder in Repository
 
 ## Implementation Details
