@@ -118,7 +118,7 @@ Remember, the goal is to learn and showcase your skills. Plagiarism goes against
 To keep your fork up to date with the main repository:
 
 ```bash
-git remote add upstream https://github.com/MohakBajaj/FrontendWonders.git
+git remote add upstream https://github.com/Build-In-Bharat/FrontendWonders.git
 git fetch upstream
 git merge upstream/main
 ```
