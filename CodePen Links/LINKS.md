@@ -30,9 +30,14 @@ To add your CodePen link:
 
 <!-- Add your CodePen links below this line -->
 
+- [MohakBajaj](https://github.com/MohakBajaj) - [The Matrix Rain](https://mohakbajaj.github.io/The-Matrix-Rain/): A mesmerizing visual effect inspired by The Matrix movie, with customizable color and speed [^1]
+
 ### Table View
 
-| Contributor | Project | Description |
-| ----------- | ------- | ----------- |
+| Contributor                                 | Project                                                          | Description                                        |
+| ------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
+| [MohakBajaj](https://github.com/MohakBajaj) | [The Matrix Rain](https://mohakbajaj.github.io/The-Matrix-Rain/) | A mesmerizing visual effect inspired by The Matrix |
 
 <!-- Add your CodePen links to the table below this line -->
+
+[^1]: https://github.com/MohakBajaj/The-Matrix-Rain
