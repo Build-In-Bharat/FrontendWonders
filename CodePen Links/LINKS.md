@@ -32,15 +32,18 @@ To add your CodePen link:
 
 - [MohakBajaj](https://github.com/MohakBajaj) - [The Matrix Rain](https://mohakbajaj.github.io/The-Matrix-Rain/): A mesmerizing visual effect inspired by The Matrix movie, with customizable color and speed [^1]
 - [MohakBajaj](https://github.com/MohakBajaj) - [WebCam to ASCII](https://mohakbajaj.github.io/WebCam-to-ASCII/): A creative project that converts webcam frames to ASCII art using p5.js [^2]
+- [MohakBajaj](https://github.com/MohakBajaj) - [Grid Animation Header](https://mohakbajaj.github.io/GridAnimationHeader/): An amazing grid animation for website headers using AnimeJS and VanillaJS [^3]
 
 ### Table View
 
-| Contributor                                 | Project                                                          | Description                                        |
-| ------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------------- |
-| [MohakBajaj](https://github.com/MohakBajaj) | [The Matrix Rain](https://mohakbajaj.github.io/The-Matrix-Rain/) | A mesmerizing visual effect inspired by The Matrix |
-| [MohakBajaj](https://github.com/MohakBajaj) | [WebCam to ASCII](https://mohakbajaj.github.io/WebCam-to-ASCII/) | Converts webcam frames to ASCII art using p5.js    |
+| Contributor                                 | Project                                                                    | Description                                                            |
+| ------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [MohakBajaj](https://github.com/MohakBajaj) | [The Matrix Rain](https://mohakbajaj.github.io/The-Matrix-Rain/)           | A mesmerizing visual effect inspired by The Matrix                     |
+| [MohakBajaj](https://github.com/MohakBajaj) | [WebCam to ASCII](https://mohakbajaj.github.io/WebCam-to-ASCII/)           | Converts webcam frames to ASCII art using p5.js                        |
+| [MohakBajaj](https://github.com/MohakBajaj) | [Grid Animation Header](https://mohakbajaj.github.io/GridAnimationHeader/) | Amazing grid animation for website headers using AnimeJS and VanillaJS |
 
 <!-- Add your CodePen links to the table below this line -->
 
 [^1]: https://github.com/MohakBajaj/The-Matrix-Rain
 [^2]: https://github.com/MohakBajaj/WebCam-to-ASCII/
+[^3]: https://github.com/MohakBajaj/GridAnimationHeader
