@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <style>
+        a:hover{
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <center><header>Login</header></center>
+    <form id="loginForm" action="/login" method="POST">
+        <h1 id="modalTitle"><u>Login</u></h1><br><br>
+        <label for="email"><b><h2>Email</h2></b></label>
+        <input type="email" id="email" name="email" required />
+        <label for="password"><b><h2>Password</h2></b></label>
+        <input type="password" id="password" name="password" required />
+        <button id="log" style="width:20%;height:20px;">Login</button>
+        <a href="signup.html" id="sign" style="width:60%;height:30px;margin-top:15px;font-size: larger;color: azure;background-color:#005449;border: 2px dotted white;padding:2px;"><b>Move to Signup</b></a>
+    </form>
+
+    <script>
+        function login() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+            // Perform client-side validation if needed
+
+            // Send login request to server
+            fetch('/login', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ email, password })
+            })
+            .then(response => {
+                if (response.redirected) {
+                    window.location.href = response.url; // Redirect to index page upon successful login
+                } else {
+                    alert('No user exists. Please sign up.'); // Show alert if user does not exist
+                    window.location.href = 'signup.html'; // Redirect to signup page
+                }
+            })
+            .catch(error => {
+                console.error('Error logging in:', error);
+                alert('Error logging in. Please try again.'); // Show alert for other errors
+            });
+        }
+    </script>
+</body>
+</html>
