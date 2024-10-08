@@ -22,5 +22,6 @@ Here's a table view of resources of  the wonderful project submitted so far:
 | Node Website                | [Arnav](https://github.com/arnav108276)  | A Node.js-powered website with cool features!             | [GitHub Repository](https://github.com/arnav108276/Node-website.git) |
 |Node WEbsite |[Arnav](https://github.com/arnav108276)|A  Node.js-powered website with cool features!|[Access link](https://webtech-assignment2-ytkw.onrender.com/)|
 |Node WEbsite |[Arnav](https://github.com/arnav108276)|A  Node.js-powered website with cool features!|[You tube video](https://www.youtube.com/watch?v=yetabyAYxOU&t=3s)|
+|Birthday Notifier |[Arnav](https://github.com/arnav108276)|Automated birthday notifier trigerred after boot|[Github repository](https://github.com/arnav108276/b_day_notification.git)|
 
 
