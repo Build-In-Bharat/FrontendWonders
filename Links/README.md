@@ -43,8 +43,8 @@ To add your CodePen link:
 | [MohakBajaj](https://github.com/MohakBajaj) | [The Matrix Rain](https://mohakbajaj.github.io/The-Matrix-Rain/)           | A mesmerizing visual effect inspired by The Matrix                        |
 | [MohakBajaj](https://github.com/MohakBajaj) | [WebCam to ASCII](https://mohakbajaj.github.io/WebCam-to-ASCII/)           | Converts webcam frames to ASCII art using p5.js                           |
 | [MohakBajaj](https://github.com/MohakBajaj) | [Grid Animation Header](https://mohakbajaj.github.io/GridAnimationHeader/) | Amazing grid animation for website headers using AnimeJS and VanillaJS    |
-| [MohakBajaj](https://github.com/MohakBajaj) | [Wordsmith](https://wordsmith.bmohak.codes/)                               | Powerful text utility web application for writing analysis and refinement |
 | [JalajSinghal](https://github.com/jalaj-25) | [Restaurant](https://codepen.io/Jalaj-Singhal/pen/ZEgOpjQ)                 | Here i have made a website for restaurant using HTML CSS                  |
+| [MohakBajaj](https://github.com/MohakBajaj) | [Wordsmith](https://wordsmith.bmohak.codes/)                               | Powerful text utility web application for writing analysis and refinement |
 
 <!-- Add your CodePen links to the table below this line -->
 
