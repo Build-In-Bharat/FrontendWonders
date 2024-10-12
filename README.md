@@ -6,11 +6,18 @@ Welcome to the Frontend Wonders repository! We're excited to have you join us fo
 
 Frontend Wonders is a collection of amazing frontend projects created by developers like you! Whether you're a beginner or an experienced coder, we welcome your creative frontend implementations. Share your CSS animations, JavaScript interactivity, responsive designs, or any frontend wonder you've created!
 
+## Showcase
+
+Check out the amazing Frontend Wonders created by our contributors:
+
+- [Gallery of Wonders](Wonders/README.md) - Explore projects added directly to our repository
+- [Links to Creations](Links/README.md) - Discover incredible projects
+
 ## How to Contribute 🚀
 
 We welcome contributions from everyone! Here's how you can participate:
 
-1. **Submit a CodePen Link**: Create your frontend wonder on CodePen and share it with us.
+1. **Submit a Link**: Create your frontend wonder and share it with us through any platform (e.g., CodePen, GitHub Pages, Netlify, Vercel, etc.).
 2. **Create a New Folder**: Add your project files directly to our repository.
 
 For detailed instructions, please check out our [CONTRIBUTING.md](CONTRIBUTING.md) file.
@@ -28,7 +35,7 @@ We encourage you to use our issue template to submit your Frontend Wonder. This 
 2. **Fill in the Template**:
 
    - Provide a description of your Frontend Wonder.
-   - Include implementation details (CodePen link or folder structure).
+   - Include implementation details (link to your project or folder structure).
    - Add any preview images or additional context.
 
 3. **Submit the Issue**:
