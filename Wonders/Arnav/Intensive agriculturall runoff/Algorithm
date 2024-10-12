@@ -1,0 +1,82 @@
+Algorithm on Topic-Intensive Agriculture Runoff Detection
+
+1. Setup
+- Input tape contains symbols representing water samples.
+
+
+ 2. States
+- Q0: Start state
+- Q1: Detect presence of pollutants
+- Q2: Assess water quality
+-Q3: Confirmation state
+-Q4: Temporary state
+- Q5: Accept state (if pollution detected)
+- Q6: Reject state (if no pollution detected)
+
+Short abbrevations used in turing machine
+
+Pestisides -Pest
+Residue-Res
+Phosphorous -Phos
+Nitrogen-Nitro
+Sample-S
+Oxygen-O2
+
+3. Transition Function:
+
+- (Q0, ∐) => (Q0, ∐ , R)
+- (Q1, Clean) => (Q6, Clean , R)
+-(Q0, S) => (Q1,S,R)
+-(Q1, Res) => (Q1,Res,R)
+-(Q1, Phos) => (Q1,Phos,R)
+-(Q1, Nitro) => (Q1,Nitro,R)
+-(Q1, Pest) => (Q1,Pest,R)
+-(Q1, O2) => (Q1,O2,R)
+-(Q1, ∐) => (Q2, ∐ , L)
+-(Q2, Res) => (Q1,Res,L)
+-(Q2, Phos) => (Q2,Phos,L)
+-(Q2, Nitro) => (Q2,Nitro,L)
+-(Q2, Pest) => (Q2,Pest,L)
+-(Q2, O2) => (Q2, x ,L)
+-(Q2,∐) => (Q3, ∐ , R)
+-(Q3, Res) => (Q5,Res,R)
+-(Q3, Phos) => (Q5,Phos,R)
+-(Q3, Nitro) => (Q5,Nitro,R)
+-(Q3, Pest) => (Q5,Pest,R)
+-(Q3, x) => (Q4,x,R)
+-(Q4, Res) => (Q5,Res,R)
+-(Q4, Phos) => (Q5,Phos,R)
+-(Q4, Nitro) => (Q5,Nitro,R)
+-(Q4, Pest) => (Q5,Pest,R)
+-(Q4,∐) => (Q6,∐,R)
+-(Q4,x) => (Q6,x,R)
+
+Working
+
+Q0: Start by moving right until the first symbol is encountered.
+Q1: Detect pollutants by scanning the water sample symbols.
+Transition to Q2 if the end of the water sample is reached without detecting any pollutants.
+If pollutants are detected, continue scanning.
+Q2: Assess water quality by scanning for additional pollutants or checking for oxygen levels.
+If oxygen is present, transition to Q3 for confirmation.
+If oxygen is not present, transition to Q4 for temporary storage.
+Q3: Confirm presence of pollutants and transition to Q5 if confirmed.
+Q4: Temporary state for processing additional symbols. If end of input is reached, transition to Q6.
+Q5: Accept state, indicating pollution is detected.
+Q6: Reject state, indicating no pollution is detected.
+
+Algorithm:
+
+Start in state Q0.
+Move the tape head right until a symbol is encountered.
+If the symbol is 'S' (sample), transition to state Q1.
+In state Q1, scan the water sample for pollutants (Residues, Phosphorus, Nitrogen, Pesticides).
+If no pollutants are found and the end of the sample is reached, transition to state Q2.
+In state Q2, check for oxygen (O2) presence.
+If oxygen is present, transition to state Q3 for confirmation.
+If oxygen is not present, transition to state Q4 for temporary storage.
+In state Q3, confirm the presence of pollutants and transition to state Q5 if confirmed.
+In state Q4, process additional symbols until the end of input is reached.
+If the end of input is reached without confirming pollutants, transition to state Q6.
+State Q5 is the accept state, indicating pollution is detected.
+State Q6 is the reject state, indicating no pollution is detected.
