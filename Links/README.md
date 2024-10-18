@@ -35,6 +35,7 @@ To add your CodePen link:
 - [MohakBajaj](https://github.com/MohakBajaj) - [Grid Animation Header](https://mohakbajaj.github.io/GridAnimationHeader/): An amazing grid animation for website headers using AnimeJS and VanillaJS [^3]
 - [JalajSinghal](https://github.com/jalaj-25) - [Restaurant](https://codepen.io/Jalaj-Singhal/pen/ZEgOpjQ): Here i have made a website for restaurant using HTML CSS.[^4]
 - [MohakBajaj](https://github.com/MohakBajaj) - [Wordsmith](https://wordsmith.bmohak.codes/): A powerful text utility web application for analyzing, manipulating, and refining your writing [^5]
+- [MilanSinghal](https://github.com/milansinghal2004) - [Initial Case Converter]((https://codepen.io/milansinghal2004/pen/xxvrzvG)): Here I have designed a webpage for converting the first letter of each word of a sentence to upper case using HTML, CSS and JS.[^6]
 
 ### Table View
 
@@ -45,6 +46,7 @@ To add your CodePen link:
 | [MohakBajaj](https://github.com/MohakBajaj) | [Grid Animation Header](https://mohakbajaj.github.io/GridAnimationHeader/) | Amazing grid animation for website headers using AnimeJS and VanillaJS    |
 | [JalajSinghal](https://github.com/jalaj-25) | [Restaurant](https://codepen.io/Jalaj-Singhal/pen/ZEgOpjQ)                 | Here i have made a website for restaurant using HTML CSS                  |
 | [MohakBajaj](https://github.com/MohakBajaj) | [Wordsmith](https://wordsmith.bmohak.codes/)                               | Powerful text utility web application for writing analysis and refinement |
+| [MilanSinghal](https://github.com/milansinghal2004) | [Initial Case Converter](https://codepen.io/milansinghal2004/pen/xxvrzvG) | Initial letter -> Case converter. |
 
 <!-- Add your CodePen links to the table below this line -->
 
@@ -53,3 +55,5 @@ To add your CodePen link:
 [^3]: https://github.com/MohakBajaj/GridAnimationHeader
 [^4]: https://codepen.io/Jalaj-Singhal/pen/ZEgOpjQ
 [^5]: https://github.com/MohakBajaj/Wordsmith
+[^6]: https://codepen.io/milansinghal2004/pen/xxvrzvG
+
