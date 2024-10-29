@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe - Recipe Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="quote">“Every recipe tells a story; let yours inspire others.”</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="add_recipe.html">Add Recipe</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <h2>Add a New Recipe</h2>
+        <form id="recipe-form" class="recipe-form">
+            <label for="recipe-name">Recipe Name:</label>
+            <input type="text" id="recipe-name" name="recipe-name" required>
+
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="instructions" rows="4" required></textarea>
+
+            <button type="submit">Add Recipe</button>
+        </form>
+    </div>
+
+    <div id="recipe-list" class="recipe-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
