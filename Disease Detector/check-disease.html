@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disease Detector - Check Disease</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Knowledge is the best medicine; empower yourself with awareness</h1>
+  </header>
+  
+  <nav class="nav-buttons">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="check-disease.html" class="active">Check Disease</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <h2>Check Possible Diseases Based on Symptoms</h2>
+    <p class="description">Enter your symptoms to find possible diseases.</p>
+    
+    <form id="symptom-form" onsubmit="event.preventDefault(); detectDisease();">
+      <label for="symptoms">Symptoms (comma-separated):</label>
+      <input type="text" id="symptoms" placeholder="e.g., fever, cough, headache">
+      <button type="button" onclick="detectDisease()">Detect Disease</button>
+    </form>
+    
+    <div id="result" class="result-box"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Disease Detector | Designed with ♥ for better health awareness</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
