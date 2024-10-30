@@ -38,6 +38,7 @@ To add your CodePen link:
 - [JalajSinghal](https://github.com/jalaj-25) - [Personalized Music app](https://codepen.io/Jalaj-Singhal/pen/eYqRLPy): Here i have made a personalized music app HTML, CSS & JS.[^6]
 - [JalajSinghal](https://github.com/jalaj-25) - [Inventory management system](https://github.com/jalaj-25/Projects/tree/master/python%20inventory%20managament%20store): in the above code i have made a inventory management system using Python libraries.[^7]
 - [JalajSinghal](https://github.com/jalaj-25)- [Ecommerce Website](https://github.com/jalaj-25/Projects/tree/master/amazon): Here i have made a frontend of online shopping store.[^8]
+- - [MilanSinghal](https://github.com/milansinghal2004) - [Initial Case Converter]((https://codepen.io/milansinghal2004/pen/xxvrzvG)): Here I have designed a webpage for converting the first letter of each word of a sentence to upper case using HTML, CSS and JS.[^9]
 
 ### Table View
 
@@ -48,6 +49,7 @@ To add your CodePen link:
 | [MohakBajaj](https://github.com/MohakBajaj) | [Grid Animation Header](https://mohakbajaj.github.io/GridAnimationHeader/) | Amazing grid animation for website headers using AnimeJS and VanillaJS    |
 | [JalajSinghal](https://github.com/jalaj-25) | [Restaurant](https://codepen.io/Jalaj-Singhal/pen/ZEgOpjQ)                 | Here i have made a website for restaurant using HTML CSS                  |
 | [MohakBajaj](https://github.com/MohakBajaj) | [Wordsmith](https://wordsmith.bmohak.codes/)                               | Powerful text utility web application for writing analysis and refinement |
+| [MilanSinghal](https://github.com/milansinghal2004) | [Initial Case Converter](https://codepen.io/milansinghal2004/pen/xxvrzvG) | Initial letter -> Case converter. |
 | [JalajSinghal](https://github.com/jalaj-25) | [Music App](https://codepen.io/Jalaj-Singhal/pen/eYqRLPy)                 | Here i have made a personalized music app HTML, CSS & JS                  |
 | [JalajSinghal](https://github.com/jalaj-25) | [Inventory management system](https://github.com/jalaj-25/Projects/tree/master/python%20inventory%20managament%20store)                 | Here in the above code i have made a inventory management system using Python libraries                  |
 | [JalajSinghal](https://github.com/jalaj-25) | [Ecommerce Website](https://github.com/jalaj-25/Projects/tree/master/amazon)                 | Here i have made a frontend of online shopping store.                  |
@@ -62,3 +64,4 @@ To add your CodePen link:
 [^6]: https://codepen.io/Jalaj-Singhal/pen/eYqRLPy
 [^7]: https://shorturl.at/UvfIW
 [^8]: https://github.com/jalaj-25/Projects/tree/master/amazon
+[^9]: https://codepen.io/milansinghal2004/pen/xxvrzvG
